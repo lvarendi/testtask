@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Task Suite">
+  <test name="Test Create New Book">
+	<classes>
+		<class name = "com.testtask.test.CreateNewBookTestCase" />
+	</classes>
+  </test>
+  <test name = "Test New Book Exists In Catalog">
+	<classes>
+		<class name = "com.testtask.test.NewBookExistsInCatalogueTestCase" />
+	</classes>
+  </test>
+</suite>
